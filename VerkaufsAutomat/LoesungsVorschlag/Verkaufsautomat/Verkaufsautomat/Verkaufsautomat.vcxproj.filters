@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VKZustaende">
+      <UniqueIdentifier>{2e828770-1b3a-488e-abf3-ab67e9c7e636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KKZustaende">
+      <UniqueIdentifier>{f61cfaf6-4759-4af4-a409-959cb98bd7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\VKZustaende">
+      <UniqueIdentifier>{dc4bb1d9-38d3-47de-bd35-b76b17f6bc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KKZustaende">
+      <UniqueIdentifier>{d5f54e2b-19cf-4d0b-9fe4-0ae97b4de335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kassenkontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestVerkaufsautomat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Verkaufsautomat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VerkaufsautomatDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Verkaufskontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VKGeldZurueckgeben.cpp">
+      <Filter>Source Files\VKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="VKProduktAusgeben.cpp">
+      <Filter>Source Files\VKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="VKProduktAuswaehlen.cpp">
+      <Filter>Source Files\VKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="VKProduktBezahlen.cpp">
+      <Filter>Source Files\VKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="VKZustand.cpp">
+      <Filter>Source Files\VKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="KKBetragErhalten.cpp">
+      <Filter>Source Files\KKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="KKGeldZurueckgeben.cpp">
+      <Filter>Source Files\KKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="KKWartenAufKassieren.cpp">
+      <Filter>Source Files\KKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="KKWartenAufMuenze.cpp">
+      <Filter>Source Files\KKZustaende</Filter>
+    </ClCompile>
+    <ClCompile Include="KKZustand.cpp">
+      <Filter>Source Files\KKZustaende</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kassenkontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestVerkaufsautomat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Verkaufsautomat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Verkaufskontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VKGeldZurueckgeben.h">
+      <Filter>Header Files\VKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="VKProduktAusgeben.h">
+      <Filter>Header Files\VKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="VKProduktAuswaehlen.h">
+      <Filter>Header Files\VKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="VKProduktBezahlen.h">
+      <Filter>Header Files\VKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="VKZustand.h">
+      <Filter>Header Files\VKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="KKBetragErhalten.h">
+      <Filter>Header Files\KKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="KKGeldZurueckgeben.h">
+      <Filter>Header Files\KKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="KKWartenAufKassieren.h">
+      <Filter>Header Files\KKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="KKWartenAufMuenze.h">
+      <Filter>Header Files\KKZustaende</Filter>
+    </ClInclude>
+    <ClInclude Include="KKZustand.h">
+      <Filter>Header Files\KKZustaende</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
